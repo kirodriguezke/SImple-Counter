@@ -19,12 +19,14 @@ div {
     height: 200px;
     display: flex;
     margin: 50px auto;
-    background: rgb(242,246,248);
+    background: rgb(224, 70, 32);
+    border: 1px solid black;
+     box-shadow: .2em .2em .5em #333;
 }
-.contador {
+.counter {
     width:20%;
     height: 100%;
     display: grid;
     place-items: center;
-    color: white;
+    color: rgb(28, 25, 226);
 }

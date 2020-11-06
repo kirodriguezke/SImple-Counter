@@ -8,30 +8,22 @@ export function Home(props) {
 	return (
 		<>
 			<div className="box">
-				<div className="contador">
+				<div className="counter">
 					<i className="far fa-clock fa-6x" />
 				</div>
 
-				<div className="contador">
+				<div className="counter">
 					<h1>Horas</h1>
-					<h1>{props.horas}</h1>
+					<h1>{props.hours}</h1>
 				</div>
-				<div className="contador">
+				<div className="counter">
 					<h1>Minutos</h1>
-					<h1>{props.minutos}</h1>
+					<h1>{props.mins}</h1>
 				</div>
-				<div className="contador">
+				<div className="counter">
 					<h1>Segundos</h1>
 					<h1>{props.seconds}</h1>
 				</div>
-				<button
-					type="button"
-					className="btn btn-outline-warning btn-lg"
-					onClick={() => {
-						clearInterval(loop1);
-					}}>
-					Stop counter
-				</button>
 			</div>
 		</>
 		/*<p>

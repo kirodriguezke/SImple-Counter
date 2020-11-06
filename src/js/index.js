@@ -34,7 +34,7 @@ setInterval(function() {
 		minsCounter = 0;
 	}
 	ReactDOM.render(
-		<Home seconds={secondsCounter} minutos={mins} horas={hours} />,
+		<Home seconds={secondsCounter} mins={mins} hours={hours} />,
 		document.querySelector("#app")
 	);
 }, 1 * 1000);
