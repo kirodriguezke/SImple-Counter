@@ -11,3 +11,20 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+div {
+    border-radius: 80%;
+}
+.box {
+    width: 900px;
+    height: 200px;
+    display: flex;
+    margin: 50px auto;
+    background: rgb(242,246,248);
+}
+.contador {
+    width:20%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    color: white;
+}
